@@ -1,5 +1,7 @@
 # Development environment
 
+[Programação (LEIC.009)](https://moodle.up.pt/course/view.php?id=4083) @ [LEIC](https://paginas.fe.up.pt/~estudar/cursos/licenciatura-engenharia-informatica/)
+
 ## Basic requirements
 
 1. Linux or Linux-compatible environment.
@@ -7,7 +9,7 @@
 3. Optional (but recommended) installation:; [GDB](https://www.sourceware.org/gdb/) (C/C++ debugger)
 4. A text editor of your choice. 
 
-All these tools are installed in FEUP's labs running Linux.
+__All these tools are installed in FEUP's labs running Linux.__
  
 ## Compilation settings
 
@@ -84,8 +86,7 @@ contain all the required features.
 Install gcc and gdb using the [Homebrew package manager](https://brew.sh/).
 
 - [gcc](https://formulae.brew.sh/formula/gcc#default)
-- [gdb](https://formulae.brew.sh/formula/gdb#default)
- - [complementary steps for gdb](https://sourceware.org/gdb/wiki/PermissionsDarwin)
+- [gdb](https://formulae.brew.sh/formula/gdb#default) - you also need to follow the [complementary steps for code-signing gdb](https://sourceware.org/gdb/wiki/PermissionsDarwin)
 
 
 #### Alternative - use clang
