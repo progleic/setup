@@ -6,7 +6,7 @@
 
 1. Linux or Linux-compatible environment.
 2. Required installation: [GCC](https://gcc.gnu.org) (C/C++ compiler) and [Make](https://www.gnu.org/software/make/) (build tool).
-3. Optional (but recommended) installation:; [GDB](https://www.sourceware.org/gdb/) (C/C++ debugger)
+3. Optional (but recommended): [GDB](https://www.sourceware.org/gdb/) (C/C++ debugger).
 4. A text editor of your choice. 
 
 __All these tools are installed in FEUP's labs running Linux.__
