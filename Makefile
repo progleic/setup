@@ -20,6 +20,6 @@ CXXFLAGS+= -lm
 # NOTE: comment these temporarily if 
 # your development environment is failing
 # due to these settings - it is important that 
-# you fix your environment at somn point.
+# you fix your environment at some point.
 CXXFLAGS+=-fsanitize=address -fsanitize=undefined 
 
