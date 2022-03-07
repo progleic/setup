@@ -50,7 +50,7 @@ Package [`build-essential`](https://packages.ubuntu.com/focal/build-essential) c
 On Ubuntu for instance, it can be installed as follows:
 
 ```
-sudo apt install buid-essential 
+sudo apt install build-essential 
 ```
 
 To install `gdb`:
