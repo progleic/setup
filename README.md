@@ -19,7 +19,7 @@ Use this [Makefile](Makefile). To compile program `x` with source code `x.cpp` i
 
 ```
 $ make x
-g++ -std=c++11 -pedantic -Wall -Werror -g  -lm -fsanitize=address -fsanitize=undefined     x.cpp   -o x
+g++ -std=c++11 -pedantic -Wall -Wuninitialized -Werror -g  -lm -fsanitize=address -fsanitize=undefined     x.cpp   -o x
 ```
 
 ### Compiler settings and their meaning
