@@ -93,7 +93,8 @@ Install gcc and gdb using the [Homebrew package manager](https://brew.sh/).
 
 [XCode](https://developer.apple.com/xcode/) includes the [clang C/C++ compiler](https://clang.llvm.org/) that has the same command-line switches as gcc. The [LLDB debugger](https://lldb.llvm.org/) is also an alternative to gdb. 
 
-Some necessary features may be missing from XCode's version of clang compiler, however. The [LLVM version configured through Homebrew](https://formulae.brew.sh/formula/llvm#default) should work better.
+Some necessary features may be missing from XCode's version of clang, however. 
+The [LLVM clang version configured through Homebrew](https://formulae.brew.sh/formula/llvm#default) should work better.
 
 #### Alternative - Linux VM image
 
