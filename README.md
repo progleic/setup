@@ -29,7 +29,7 @@ g++ -std=c++11 -pedantic -Wall -Werror -g  -lm -fsanitize=address -fsanitize=und
 Option |  Meaning
 -------|----------
 `-std=c++11` `-pedantic` | Set C++ 2011 as the language standard, and enforce it strictly.
-`-Wall -Werror` | Generate all possible warnings, treat warnings as compilation errors.
+`-Wall -Wuninitialized -Werror` | Generate all standard warnings, warnings for uninitialized variables, and treat warnings as compilation errors.
 `-g`   | Generate executable with debug symbols, suitable for use with `gdb`.
 `-lm` | Link with math library.
 `-fsanitize=address -fsanitize=undefined`| Enable the use of [AddressSanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer) and [Undefined Behavior Sanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)

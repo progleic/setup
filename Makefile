@@ -4,8 +4,9 @@ CXX=g++
 # Enforce C++ 2011 as the language standard
 CXXFLAGS=-std=c++11 -pedantic
 
-# Enable all warnings and treat all warnings as errors
-CXXFLAGS+= -Wall -Werror
+# Enable all standard warnings, uninitialized variable warnings, 
+# and treat all warnings as errors
+CXXFLAGS+= -Wall -Wuninitialized -Werror
 
 # Generate code with debugging information
 # (for use with a debugger like gdb)
