@@ -7,7 +7,7 @@
 1. Linux or Linux-compatible environment.
 2. Required installation: [GCC](https://gcc.gnu.org) (C/C++ compiler) and [Make](https://www.gnu.org/software/make/) (build tool).
 3. Optional (but recommended): [GDB](https://www.sourceware.org/gdb/) (C/C++ debugger).
-4. A text editor of your choice. 
+4. [Visual Studio Code](https://code.visualstudio.com/) or a simple text editor of your choice. 
 
 __All these tools are installed in FEUP's labs running Linux.__
  
@@ -59,6 +59,8 @@ To install `gdb`:
 sudo apt install gdb
 ```
 
+
+
 ### Windows
 
 #### Windows Subsystem for Linux (WSL) - RECOMMENDED 
@@ -66,6 +68,8 @@ sudo apt install gdb
 Use the [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/about).
 
 WSL will provide you with a _"GNU/Linux environment -- including most command-line tools, utilities, and applications -- directly on Windows, unmodified, without the overhead of a traditional virtual machine or dualboot setup"_.
+
+You can use [VS Code together with WSL]().
 
 #### Alternative - Linux VM image
 
@@ -100,7 +104,23 @@ The [LLVM clang version configured through Homebrew](https://formulae.brew.sh/fo
 
 Check the instructions given for Windows previously.
 
+### Visual Studio Code setup
+
+#### Minimal requirements
+
+- [Install Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-clang-mac)
+- [Install the C/C++ extension for Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-clang-mac)
+
+You can then use VSCode as a C++ editor and use the built-in terminal for compiling programs using `make`, then run or debug them, etc.
+
+#### Complementary setup instructions (if necessary)
+
+- [Using C++ on Linux in VS Code](https://code.visualstudio.com/docs/cpp/config-linux)
+- [Using C++ and WSL in VS Code](https://code.visualstudio.com/docs/cpp/config-wsl) (for Windows regarding integration with WSL)
+- [Using Clang in Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-clang-mac) (for MacOS if you use clang)
+
+
 ### Online IDE
 
-[Replit](https://replit.com)
+You can use [Replit](https://replit.com) as a (temporary) work-around.
 
