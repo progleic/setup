@@ -111,7 +111,7 @@ Check the instructions given for Windows previously.
 - [Install Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-clang-mac)
 - [Install the C/C++ extension for Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-clang-mac)
 
-You can then use VSCode as a C++ editor and use the built-in terminal for compiling programs using `make`, then run or debug them, etc.
+You can then use VSCode as a C++ editor and use the built-in terminal for compiling programs using `make`, then run or debug the programs, etc.
 
 #### Complementary setup instructions (if necessary)
 
