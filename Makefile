@@ -24,3 +24,12 @@ CXXFLAGS+= -lm
 # you fix your environment at some point.
 CXXFLAGS+=-fsanitize=address -fsanitize=undefined 
 
+# C++ source files to consider in compilation
+CPP_FILES=
+# C++ header files to consider in compilation
+HEADERS=
+# Name of executable program ('main' by default)
+PROG=main
+
+$(PROG): $(CPP_FILES) $(HEADERS)
+	$(CXX) $(CXXFLAGS) $(CPP_FILES) -o $(PROG)

@@ -15,12 +15,21 @@ __All these tools are installed in FEUP's labs running Linux.__
 
 ### `Makefile`
 
-Use this [Makefile](Makefile). To compile program `x` with source code `x.cpp` it then suffices to execute `make x`:
+Use this [Makefile](Makefile). 
 
-```
+To compile program `x` with source code `x.cpp` it then suffices to execute `make x`:
+
+  ```
 $ make x
 g++ -std=c++11 -pedantic -Wall -Wuninitialized -Werror -g  -lm -fsanitize=address -fsanitize=undefined     x.cpp   -o x
-```
+  ```
+
+To compile a program (`PROG`) with several sources (`CPP_FILES`) and headers (`HEADERS`) execute `make PROG=... CPP_SOURCES="..." HEADERS="..."`, for instance:
+
+  ```
+$ make PROG=hello CPP_FILES="hello.cpp hello_main.cpp" HEADERS="hello.h"
+g++ -std=c++11 -pedantic -Wall -Wuninitialized -Werror -g  -lm -fsanitize=address -fsanitize=undefined  hello.cpp hello_main.cpp -o hello
+  ```
 
 ### Compiler settings and their meaning
 
