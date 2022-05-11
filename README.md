@@ -24,7 +24,7 @@ $ make x
 g++ -std=c++11 -pedantic -Wall -Wuninitialized -Werror -g  -lm -fsanitize=address -fsanitize=undefined     x.cpp   -o x
   ```
 
-To compile a program (`PROG`) with several sources (`CPP_FILES`) and headers (`HEADERS`) execute `make PROG=... CPP_SOURCES="..." HEADERS="..."`, for instance:
+To compile a program (`PROG`) with several sources (`CPP_FILES`) and headers (`HEADERS`) execute `make PROG=... CPP_FILES="..." HEADERS="..."`, for instance:
 
   ```
 $ make PROG=hello CPP_FILES="hello.cpp hello_main.cpp" HEADERS="hello.h"
