@@ -10,7 +10,7 @@ CXXFLAGS+= -Wall -Wuninitialized -Werror
 
 # Generate code with debugging information
 # (for use with a debugger like gdb)
-CXXFLAGS+= -g 
+CXXFLAGS+= -g
 
 # Link with math library
 CXXFLAGS+= -lm
@@ -22,7 +22,7 @@ CXXFLAGS+= -lm
 # your development environment is failing
 # due to these settings - it is important that 
 # you fix your environment at some point.
-CXXFLAGS+=-fsanitize=address -fsanitize=undefined 
+CXXFLAGS+=-fsanitize=address -fsanitize=undefined
 
 # C++ source files to consider in compilation
 CPP_FILES=
