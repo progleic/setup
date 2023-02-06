@@ -78,8 +78,6 @@ Use the [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/win
 
 WSL will provide you with a _"GNU/Linux environment -- including most command-line tools, utilities, and applications -- directly on Windows, unmodified, without the overhead of a traditional virtual machine or dualboot setup"_.
 
-You can use [VS Code together with WSL]().
-
 #### Alternative - Linux VM image
 
 Use [Virtual Box](https://www.virtualbox.org/) for running a Linux VM,
