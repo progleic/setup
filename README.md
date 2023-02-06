@@ -1,6 +1,6 @@
 # Development environment
 
-[Programação (LEIC.009)](https://moodle.up.pt/course/view.php?id=4083) @ [LEIC](https://paginas.fe.up.pt/~estudar/cursos/licenciatura-engenharia-informatica/)
+[Programação (LEIC.009)](https://moodle.up.pt/course/view.php?id=2030) @ [LEIC](https://paginas.fe.up.pt/~estudar/cursos/licenciatura-engenharia-informatica/)
 
 ## Basic requirements
 
