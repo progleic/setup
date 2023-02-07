@@ -39,7 +39,7 @@ Option |  Meaning
 -------|----------
 `-std=c++11` `-pedantic` | Set C++ 2011 as the language standard, and enforce it strictly.
 `-Wall -Wuninitialized -Werror` | Generate all standard warnings, warnings for uninitialized variables, and treat warnings as compilation errors.
-`-g`   | Generate executable with debug symbols, suitable for use with `gdb`.
+`-g`   | Generate executable with debug symbols, suitable for use with GDB.
 `-lm` | Link with math library.
 `-fsanitize=address -fsanitize=undefined`| Enable the use of [AddressSanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer) and [Undefined Behavior Sanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)
 
@@ -54,13 +54,13 @@ There are several Linux distributions, e.g., [Ubuntu](https://ubuntu.com/tutoria
 
 #### Package installation
 
-Package [`build-essential`](https://packages.ubuntu.com/focal/build-essential) contains GCC. On Ubuntu for instance, this package can be installed as follows:
+Package [`build-essential`](https://packages.ubuntu.com/focal/build-essential) contains GCC and Make. On Ubuntu for instance, this package can be installed as follows:
 
 ```
 sudo apt install build-essential 
 ```
 
-To install `gdb` as well, execute:
+To install GDB as well, execute:
 
 ```
 sudo apt install gdb
@@ -76,7 +76,7 @@ Use the [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/win
 
 WSL will provide you with a _"GNU/Linux environment -- including most command-line tools, utilities, and applications -- directly on Windows, unmodified, without the overhead of a traditional virtual machine or dualboot setup"_.
 
-If you configure WSL to run Ubuntu, then you may install `gcc` and `gdb` as illustrated previously for (standalone) Linux;
+If you configure WSL to run Ubuntu, then you may install GCC and GDB as illustrated previously for (standalone) Linux;
 simply run the following commands in the WSL command line:
 
 ```
@@ -97,17 +97,17 @@ contain all the required features.
 
 ### MacOS
 
-### gcc and gdb using Homebrew - RECOMMENDED
+### GCC and GDB using Homebrew - RECOMMENDED
 
-Install gcc and gdb using the [Homebrew package manager](https://brew.sh/).
+Install GCC and GDB using the [Homebrew package manager](https://brew.sh/).
 
-- [gcc](https://formulae.brew.sh/formula/gcc#default)
-- [gdb](https://formulae.brew.sh/formula/gdb#default) - you also need to follow the [complementary steps for code-signing gdb](https://sourceware.org/gdb/wiki/PermissionsDarwin)
+- [GCC](https://formulae.brew.sh/formula/gcc#default)
+- [GDB](https://formulae.brew.sh/formula/gdb#default) - you also need to follow the [complementary steps for code-signing GDB](https://sourceware.org/gdb/wiki/PermissionsDarwin)
 
 
 #### Alternative - use clang
 
-[XCode](https://developer.apple.com/xcode/) includes the [clang C/C++ compiler](https://clang.llvm.org/) that has the same command-line switches as gcc. The [LLDB debugger](https://lldb.llvm.org/) is also an alternative to gdb. 
+[XCode](https://developer.apple.com/xcode/) includes the [clang C/C++ compiler](https://clang.llvm.org/) that has the same command-line switches as gcc. The [LLDB debugger](https://lldb.llvm.org/) is also an alternative to GDB. 
 
 Some necessary features may be missing from XCode's version of clang, however. 
 The [LLVM clang version configured through Homebrew](https://formulae.brew.sh/formula/llvm#default) should work better.
@@ -120,7 +120,7 @@ Check the instructions given for Windows and VirtualBox above.
 
 #### Minimal requirements
 
-__Note__: Visual Studio Code does not include `gcc`, `gdb` or `make`. Install those tools first.
+__Note__: Visual Studio Code does not include GCC, GDB or Make. Install those tools first.
 
 - Install Visual Studio Code on [Linux](https://code.visualstudio.com/docs/setup/linux), [MacOS](https://code.visualstudio.com/docs/setup/mac), or [Windows](https://code.visualstudio.com/docs/setup/windows)
 - [Install the C/C++ extension for Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp)
