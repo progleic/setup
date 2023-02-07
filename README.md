@@ -86,11 +86,10 @@ sudo apt install build-essential
 sudo apt install gdb
 ```
 
-#### Alternative - Linux VM image
+#### Alternative - Linux VM image 
 
 Use [Virtual Box](https://www.virtualbox.org/) for running a Linux VM,
 e.g., check this [guide for Ubuntu](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview).
-
 
 #### NOT RECOMMENDED!
 
@@ -117,7 +116,7 @@ The [LLVM clang version configured through Homebrew](https://formulae.brew.sh/fo
 
 #### Alternative - Linux VM image
 
-Check the instructions given for Windows previously.
+Check the instructions given for Windows and VirtualBox above.
 
 ### Visual Studio Code setup
 
