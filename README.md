@@ -78,6 +78,14 @@ Use the [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/win
 
 WSL will provide you with a _"GNU/Linux environment -- including most command-line tools, utilities, and applications -- directly on Windows, unmodified, without the overhead of a traditional virtual machine or dualboot setup"_.
 
+If you configure WSL to run Ubuntu, then you may install `gcc` and `gdb` as illustrated previously for (standalone) Linux;
+simply run the following commands in the WSL command line:
+
+```
+sudo apt install build-essential 
+sudo apt install gdb
+```
+
 #### Alternative - Linux VM image
 
 Use [Virtual Box](https://www.virtualbox.org/) for running a Linux VM,
