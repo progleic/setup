@@ -118,21 +118,15 @@ Check the instructions given for Windows and VirtualBox above.
 
 ### Visual Studio Code setup
 
-#### Minimal requirements
+__Note__: Visual Studio Code does not include GCC, GDB or Make. Install those tools first as described above.
 
-__Note__: Visual Studio Code does not include GCC, GDB or Make. Install those tools first.
+Steps:
 
 - Install Visual Studio Code on [Linux](https://code.visualstudio.com/docs/setup/linux), [MacOS](https://code.visualstudio.com/docs/setup/mac), or [Windows](https://code.visualstudio.com/docs/setup/windows)
 - [Install the C/C++ extension for Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp)
+- For Windows + WSL, see this tutorial: [Using C++ and WSL in VS Code](https://code.visualstudio.com/docs/cpp/config-wsl)
 
 You can then use Visual Studio Code as a C++ editor and use the built-in terminal for compiling programs using `make`, then run or debug the programs, etc.
-
-#### Complementary setup instructions (if necessary)
-
-- [Using C++ on Linux in VS Code](https://code.visualstudio.com/docs/cpp/config-linux)
-- [Using C++ and WSL in VS Code](https://code.visualstudio.com/docs/cpp/config-wsl) (for Windows regarding integration with WSL)
-- [Using Clang in Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-clang-mac) (for MacOS if you use clang)
-
 
 ### Online IDE
 
