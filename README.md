@@ -54,15 +54,13 @@ There are several Linux distributions, e.g., [Ubuntu](https://ubuntu.com/tutoria
 
 #### Package installation
 
-Package [`build-essential`](https://packages.ubuntu.com/focal/build-essential) contains GCC:
-
-On Ubuntu for instance, it can be installed as follows:
+Package [`build-essential`](https://packages.ubuntu.com/focal/build-essential) contains GCC. On Ubuntu for instance, this package can be installed as follows:
 
 ```
 sudo apt install build-essential 
 ```
 
-To install `gdb`:
+To install `gdb` as well execute:
 
 ```
 sudo apt install gdb
