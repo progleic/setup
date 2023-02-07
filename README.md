@@ -60,7 +60,7 @@ Package [`build-essential`](https://packages.ubuntu.com/focal/build-essential) c
 sudo apt install build-essential 
 ```
 
-To install `gdb` as well execute:
+To install `gdb` as well, execute:
 
 ```
 sudo apt install gdb
