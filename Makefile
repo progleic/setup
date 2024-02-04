@@ -2,7 +2,7 @@
 CXX=g++
 
 # Enforce C++ 2011 as the language standard
-CXXFLAGS=-std=c++11 -pedantic
+CXXFLAGS=-std=c++11  -pedantic
 
 # Enable all standard warnings, uninitialized variable warnings, 
 # and treat all warnings as errors
@@ -24,12 +24,16 @@ CXXFLAGS+= -lm
 # you fix your environment at some point.
 CXXFLAGS+=-fsanitize=address -fsanitize=undefined
 
+
+# The settings below are necessary only 
+# in the case of multiple source files
+
 # C++ source files to consider in compilation
 CPP_FILES=
 # C++ header files to consider in compilation
 HEADERS=
-# Name of executable program ('main' by default)
-PROG=main
+# Name of executable program
+PROG=
 
 $(PROG): $(CPP_FILES) $(HEADERS)
 	$(CXX) $(CXXFLAGS) $(CPP_FILES) -o $(PROG)
